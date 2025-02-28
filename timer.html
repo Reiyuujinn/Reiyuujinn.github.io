@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Countdown</title>
+    <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+    <div class="container">
+        <h2><span class="judul">Timer</span></h2>
+        <input type="number" id="input-time" placeholder="Input Second(s)" min="1">
+        <div id="timer">00:00</div>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+    <audio id="alarm-sound" src=""></audio>
+    <script src="timer.js"></script>
+</body>
+</html>
